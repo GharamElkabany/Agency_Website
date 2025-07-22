@@ -525,7 +525,112 @@
   margin: 0 0.75rem;
 }
 
-@media screen and (max-width: 1025px) {
+@media (max-width: 767px) {
+  .navbar{
+    position:absolute ;
+  }
+
+  .home {
+    height: 80vh;
+    padding-top: 1.5rem;
+  }
+
+  .home h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .home h1 {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+  }
+
+  .home .btn {
+    font-size: 1.35rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+  #services .parent {
+    gap: 0rem;
+  }
+
+  #services p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.75rem;
+  }
+
+  #portfolio, #team {
+    padding: 5rem 0.75rem;
+  }
+  
+  #portfolio .parent {
+    gap: 1.5rem;
+  }
+  
+  #portfolio .card h2 {
+    font-size: 1.75rem;
+  }
+
+  #portfolio .card h3 {
+    padding: 0.5rem;
+  }
+
+  #team .paragraph{
+    margin: 0 ;
+    padding: 0;
+  }
+
+  .clients {
+    padding: 2rem 0;
+  }
+
+  #contact {
+    padding: 5rem 0;
+  }
+
+  #contact form {
+    padding: 0 0.75rem;
+  }
+
+  #contact form .container {
+    gap: 0;
+    margin-bottom: 2.5rem;
+  }
+
+  #contact form .item input,
+  #contact form .item textarea {
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    padding: 2rem 0;
+    margin: 0;
+  }
+
+  .footer .parent {
+    justify-content: center;
+  }
+
+  .footer .parent .center {
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+  }
+
+  .footer .parent .center i {
+    margin: 0;
+  }
+
+.footer .parent .center,
+.footer .parent .right  {
+  gap: 1rem;
+}
+
+
+
+}
+
+/* @media screen (max-width: 1025px) {
   #about .timeline::before {
     left: 5.5rem;
     top: 2rem;
@@ -564,4 +669,4 @@
     right: 22%;
     transform: translateX(-50%);
   }
-}
+} */
