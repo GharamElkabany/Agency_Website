@@ -235,7 +235,7 @@
   background-color: var(--white);
   align-content: center;
   text-align: center;
-  padding: 4rem 4rem;
+  padding: 4rem 1rem;
 }
 
 #about .timeline {
@@ -263,7 +263,7 @@
 
 #about .timeline .timeline-item .timeline-content1 {
   width: 45%;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   text-align: right;
 }
 
@@ -661,9 +661,11 @@
   .footer {
     padding: 2rem 0;
     margin: 0;
+    text-align: center;
   }
 
   .footer .parent {
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -681,44 +683,3 @@
     gap: 1rem;
   }
 }
-
-/* @media screen (max-width: 1025px) {
-  #about .timeline::before {
-    left: 5.5rem;
-    top: 2rem;
-    height: 90%;
-  }
-
-  #about .timeline .timeline-item {
-    flex-direction: row-reverse!important;
-    align-items: center;
-    text-align: center;
-    padding-right: 2rem;
-  }
-
-  #about .timeline .timeline-item .timeline-content1,
-  #about .timeline .timeline-item .timeline-content2 {
-    width: 100%;
-    padding: 1rem 0;
-    text-align: left;
-    margin: 0 1.5rem;
-  }
-
-  #about .timeline .timeline-item .timeline-content1 p,
-  #about .timeline .timeline-item .timeline-content2 p {
-    margin: 0;
-  }
-
-  #about .timeline .timeline-item .timeline-icon img {
-    margin: 1rem 0;
-  }
-
-  #about .timeline .timeline-item.final .timeline-icon {
-    width: 10rem;
-    height: 10rem;
-    padding: 1rem;
-    margin-top: 2rem;
-    right: 22%;
-    transform: translateX(-50%);
-  }
-} */
